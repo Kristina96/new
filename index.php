@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<script src="jquery/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="jquery/jquery.min.css">
+  <link rel="stylesheet" href="jquery/jquery.mobile.icons-1.4.5.min.css">
+  <link rel="stylesheet" href="jquery/jquery.mobile.structure-1.4.5.min.css">
+  <link rel="stylesheet" href="jquery/jquery.mobile.theme-1.4.5.min.css">
+  <link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css">
+
+  <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" data-theme="b"> <!--div обертка с атрибутом data-role, использутся для разделения контента на страницы под мобильное утройство-->
+        <div data-role="header">
+            <h1>Изучаем jquery</h1>
+        </div>
+        <div data-role="content" class="ui-content" role="main">
+        <h2>Заголовок 2</h2>
+            <form>
+                <label for="slider-0">
+                <img src="2.png">
+                </label>
+                <label for="slider-1">
+                <img src="1.jpeg">
+                </label>
+                <label for="slider-2">Третий слайд</label>
+                <label for="slider-3">Четвертый слайд</label>
+                <input type="range" name="slider" id="slider-0" value="1" min="0" max="4">
+                <input type="text" name="name" placeholder="Имя">
+                <a href="#" data-role="button" data-icon="star">Отправить</a>
+            </form>
+        </div>
+        <div data-role="footer">
+            <ul data-role="list-view" data-inset="true" data-filter="true">
+                 <li> <a href='#'>A</a></li>
+                 <li> <a href='#'>B</a></li>
+                 <li> <a href='#'>d</a></li>
+                 <li> <a href='#'>c</a></li>
+            </ul>
+        </div>
+        </div>
+    
+</body>
+</html>
